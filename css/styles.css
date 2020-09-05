@@ -1,0 +1,128 @@
+body{
+  text-align: center;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  color: #40514e;
+}
+
+
+h1{
+  margin:50px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5.625rem;
+  color: #125147 ;
+}
+
+h2{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 2.2rem;
+  color: #18685b ;
+
+}
+
+h3{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.75rem;
+  color: #1e8272 ;
+  font-weight: normal;
+  line-height: 2;
+  margin: 0;
+}
+
+hr{
+  border-style: dotted none none;
+  border-color:  #b5c4c2;
+  border-width: 5px;
+  width: 2%;
+}
+
+.space{
+  height: 100px;
+}
+
+.top-container{
+  background-color: #f1f3f8;
+  position: relative;
+  padding-top: 120px;
+}
+
+.bottom-container{
+  background-color: #125147;
+  padding: 50px 0 20px;
+}
+
+
+.profile{
+  margin: auto;
+}
+
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.code-img{
+  float:left;
+  margin-right: 30px
+}
+
+.painting{
+  float:right;
+  margin-left: 30px;
+}
+
+.photoshop{
+  position: absolute;
+  float: left;
+}
+
+.background-circle{
+  float: left;
+  margin-right: 30px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  top: 30%;
+}
+
+.top-cloud{
+  position: absolute;
+  left: 75%;
+  top: 10%;
+}
+
+.btn {
+  background: #125147;
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #125147), color-stop(1, #125147) );
+  background: -moz-linear-gradient( center top, #125147 5%, #125147 100% );
+  background: -ms-linear-gradient( center top, #125147 5%, #125147 100% );
+  background: -o-linear-gradient( center top, #125147 5%, #125147 100% );
+  background: -webkit-linear-gradient( center top, #125147 5%, #125147 100% );
+
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Fjalla One', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1f9885), color-stop(1, #28bda5) );
+  background: -moz-linear-gradient( center top, #1f9885 5%, #28bda5 100% );
+  background: -ms-linear-gradient( center top, #1f9885 5%, #28bda5 100% );
+  background: -o-linear-gradient( center top, #1f9885 5%, #28bda5 100% );
+  background: -webkit-linear-gradient( center top, #1f9885 5%, #28bda5 100% );
+
+  text-decoration: none;
+}
+
+.copyright{
+  color: #f1f3f8;
+  padding: 20px 0;
+  font-size: 0.75rem;
+}
